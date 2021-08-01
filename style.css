@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+    border: rgba(0, 128, 0, 0.815);
+    border-radius: 50px;
+    border-left-style: solid;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 50%;
+    background-color: black; 
+    display: flex;
+    
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 25px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: green;
+    font-size: 200 px;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+}
+.rightnav{
+    width: 50%;
+    text-align: right;
+    background-color:black;
+    top: 0;
+    height: 68px;
+    padding: 0 23px;
+
+
+}
+.background{
+    background: rgba(0, 0, 0, 0.7)url('../img/grey2.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2 px solid grey;
+    border-radius: 9 px;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.firsthalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+}
+.text-big{
+    
+    font-family:cursive;
+    font-size: 50px;
+    text-overflow: ellipsis;
+    text-decoration: green;
+    text-decoration-color: green;
+    
+}
+.text-small{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.secondhalf{
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    
+}
+.secondhalf img{
+    width: 70%;
+    border: rgba(0, 128, 0, 0.815);
+    border-radius: 150px;
+    border-left-style: solid;
+    border-color:green;
+    padding: 4px 0; 
+    display: block;
+    margin: auto;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    
+}
+.secright{
+    height: 600px;
+    justify-content: space-evenly;
+
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+}
+.secttionsubtag .text-small{
+    padding-top: 500px;
+}
